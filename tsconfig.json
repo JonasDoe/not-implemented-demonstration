@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "module": "es2022",
+    "target": "ES2022",
+    "rootDir": ".",
+    "outDir": "dist",
+    "moduleResolution": "node",
+    "declaration": true,
+    "sourceMap": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": true,
+    "skipLibCheck": false
+  },
+  "include": ["*.ts"],
+  "ts-node": {
+    "esm": true
+  }
+}
